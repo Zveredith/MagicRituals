@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "magicrituals:blocks/blockBasicChalkMark"
+    },
+    "model": "carpet",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

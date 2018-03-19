@@ -1,0 +1,16 @@
+[
+{
+  "modid": "magicrituals",
+  "name": "Magic Rituals",
+  "description": "Adds ritual magic to Minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zveredith"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
