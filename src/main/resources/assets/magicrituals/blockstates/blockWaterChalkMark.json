@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "wool": "magicrituals:blocks/blockBasicChalkMark",
-      "particle": "magicrituals:blocks/blockBasicChalkMark"
+      "wool": "magicrituals:blocks/blockWaterChalkMark",
+      "particle": "magicrituals:blocks/blockWaterChalkMark"
     },
     "model": "carpet",
     "uvlock": true

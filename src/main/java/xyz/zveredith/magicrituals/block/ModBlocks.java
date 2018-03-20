@@ -10,8 +10,20 @@ import xyz.zveredith.magicrituals.MagicRituals;
 public class ModBlocks {
 
     public static BlockBase basicChalkMark;
+    public static BlockBase centerChalkMark;
+    public static BlockBase airChalkMark;
+    public static BlockBase fireChalkMark;
+    public static BlockBase earthChalkMark;
+    public static BlockBase waterChalkMark;
+    public static BlockBase vacuousChalkMark;
     public static void init() {
-        basicChalkMark = register(new ChalkMarkBase("blockBasicChalkMark").setCreativeTab(MagicRituals.ritualTab));
+        basicChalkMark = register(new ChalkMarkBase("blockBasicChalkMark"));
+        airChalkMark = register(new ChalkMarkBase("blockAirChalkMark"));
+        fireChalkMark = register(new ChalkMarkBase("blockFireChalkMark"));
+        earthChalkMark = register(new ChalkMarkBase("blockEarthChalkMark"));
+        waterChalkMark = register(new ChalkMarkBase("blockWaterChalkMark"));
+        vacuousChalkMark = register(new ChalkMarkVacuous());
+        centerChalkMark = register(new ChalkMarkCenter());
     }
 
     private static <temp extends Block> temp register(temp block, ItemBlock itemBlock) {
